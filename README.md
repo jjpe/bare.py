@@ -13,6 +13,6 @@ fact that argparse, which is used for parsing the cli arguments, was only
 introduced in Python 3.2.
 
 Note: the script assumes that both the env and python3 binaries are located
-      within /usr/bin/. This of course won't work for OS X, Windows and 
-      custom Linux installs, but it works out of the box on disto's such as
-      Ubuntu and Fedora.
+      within /usr/bin/. This of course won't work for vanilla Windows (it
+      might work for cygwin but I haven't tested that) but it works
+      out of the box on distributions such as Ubuntu and Fedora.
