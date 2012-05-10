@@ -12,7 +12,7 @@ All the script needs to run is Python 3.2+. This requirement is due to the
 fact that argparse, which is used for parsing the cli arguments, was only
 introduced in Python 3.2.
 
-Note: the script assumes that the python3 binary is located within /usr/bin/.
-      This of course won't work for OS X, Windows and custom Linux installs, 
-      but it works out of the box on disto's such as Ubuntu and friends, and
-      Fedora.
+Note: the script assumes that both the env and python3 binaries are located
+      within /usr/bin/. This of course won't work for OS X, Windows and 
+      custom Linux installs, but it works out of the box on disto's such as
+      Ubuntu and Fedora.
